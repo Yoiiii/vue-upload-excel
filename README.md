@@ -7,7 +7,7 @@
 import UploadExcel from "@/components/UploadExcel.vue";
 //另需引用element UI buttom 和 table组件
 ```
-##运行示例
+## 运行示例
 ```
 npm install
 npm run serve
@@ -60,12 +60,12 @@ export default {
 </script>
 ```
 
-##Props
-###beforeUpload
+## Props
+### beforeUpload
 ```javascript
    beforeUpload: Function,//文件读取前执行
 ```
-###onSuccess
+### onSuccess
 ```
    onSuccess: Function,//文件读取后返回返回excel数据对象，如下
     handleSuccess({ headerlist, resultslist, sheetList }) {
@@ -74,7 +74,7 @@ export default {
       console.log("sheetList",sheetList);//工作表名称列表
     },
 ```
-###showData
+### showData
 ```
     showData: {//是否展示数据
       type: Boolean,
