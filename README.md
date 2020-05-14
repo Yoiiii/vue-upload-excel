@@ -1,5 +1,5 @@
 # vue-upload-excel
-> vue-upload-excel是一个基于Vue2.0和XLSX的Vue组件，用于获取和显示Excel中数据。
+> vue-upload-excel是一个基于Vue2.0和XLSX的Vue组件，用于获取和显示Excel中数据。[在线示例](https://shawyoi.cn/upload-excel)
 
 ## 引入
 ```
@@ -9,6 +9,7 @@ import UploadExcel from "@/components/UploadExcel.vue";
 ```
 ##运行示例
 ```
+git clone 项目，进入根目录
 npm install
 npm run serve
 ```
